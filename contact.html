@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FX Hosting Contact</title>
+	<!-- links Bootstrap.css, animate.css, hover.css, font-awesome.css and app.css files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+
+
+<!-- ******************************************* Navbar ******************************************* -->
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+	<div class="container">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+			<a href="index.html" class="navbar-brand hvr-bounce-in">FX Hosting</a>
+		</div>	<!-- navbar-header ending -->
+
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav">
+				<li class="active "><a href="#" class="hvr-bounce-in">Home</a></li>
+				<li><a href="domains.html" class="hvr-bounce-in">Domains</a></li>
+				<li><a href="contact.html" class="hvr-bounce-in">Contact</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" data-toggle="modal" data-target="#myModal" class="hvr-bounce-in">Login</a></li>
+			</ul>
+		</div><!-- collapse ending -->
+	</div> <!-- container ending -->
+</nav>
+
+
+<!-- ******************************************* Login Modal ******************************************* -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       			<h4 class="modal-title" id="myModalLabel">Login</h4>
+      		</div>
+
+      		<div class="modal-body">
+        		<form>
+		  			<div class="form-group">
+		    			<label for="exampleInputEmail1">Email address</label>
+		    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  			</div>
+
+		  			<div class="form-group">
+		    			<label for="exampleInputPassword1">Password</label>
+		    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  					</div>
+				</form>
+      		</div>
+
+			<div class="modal-footer">
+				<button type="submit" class="btn btn-default">Submit</button>
+			</div>
+    	</div><!-- model content ending -->
+  	</div> <!-- model dailog ending -->
+</div> <!-- modal fade ending -->
+
+
+
+<!-- ******************************************* Section Jumbotron ******************************************* -->
+
+<section class="jumbotron">
+	<div class="container">
+		<h2><i class="fa fa-home"></i> Contact US</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2926.031230895828!2d-71.0071456!3d42.8299541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e2fd2c74fb2e89%3A0x4b2b1199a9175d3f!2s89+W+Main+St%2C+Merrimac%2C+MA+01860!5e0!3m2!1sen!2sus!4v1410307146066" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<form>
+
+							<div class="form-group">
+								<label>
+									Name<input type="text" name="name" class="form-control" placeholder="Enter name">
+								</label>
+							</div>
+
+							<div class="form-group">
+								<label>
+									Email Address<input type="email" name="email" class="form-control" placeholder="Enter email address" required="">
+								</label>
+							</div>
+
+							<div class="form-group">
+								<label>
+									Message<textarea class="form-control" placeholder="Enter Message"></textarea>
+								</label>
+							</div>
+
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div><!-- panel-body ending -->
+				</div><!-- panel ending -->
+			</div>
+		</div><!-- row ending -->
+	</div><!-- container ending-->
+</section>
+
+<!-- ******************************************* Footer ******************************************* -->
+
+<footer>
+	<div class="container">
+		<p class="pull-right"><a href="#">Back to Top</a></p>
+		<p>FX Hosting &copy; 2017 &middot; <a href="#"> Privacy</a> &middot;
+		<a href="#">Terms</a></p>
+	</div>
+</footer>
+
+<!-- links to jquery, bootstrap.js, wow.js and app.js files -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>

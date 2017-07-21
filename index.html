@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FX Hosting</title>
+	<!-- links Bootstrap.css, animate.css, hover.css, font-awesome.css and app.css files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+
+
+<!-- ******************************************* Navbar ******************************************* -->
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+	<div class="container">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+			<a href="#" class="navbar-brand hvr-bounce-in">FX Hosting</a>
+		</div>	<!-- navbar-header ending -->
+
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav">
+				<li class="active "><a href="#" class="hvr-bounce-in">Home</a></li>
+				<li><a href="domains.html" class="hvr-bounce-in">Domains</a></li>
+				<li><a href="contact.html" class="hvr-bounce-in">Contact</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" data-toggle="modal" data-target="#myModal" class="hvr-bounce-in">Login</a></li>
+			</ul>
+		</div><!-- collapse ending -->
+	</div> <!-- container ending -->
+</nav>
+
+<!-- ******************************************* Login Modal ******************************************* -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       			<h4 class="modal-title" id="myModalLabel">Login</h4>
+      		</div>
+
+      		<div class="modal-body">
+        		<form>
+		  			<div class="form-group">
+		    			<label for="exampleInputEmail1">Email address</label>
+		    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  			</div>
+
+		  			<div class="form-group">
+		    			<label for="exampleInputPassword1">Password</label>
+		    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  					</div>
+				</form>
+      		</div>
+
+			<div class="modal-footer">
+				<button type="submit" class="btn btn-default">Submit</button>
+			</div>
+    	</div><!-- model content ending -->
+  	</div> <!-- model dailog ending -->
+</div> <!-- modal fade ending -->
+
+<!-- ******************************************* Carousal ******************************************* -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  	<!-- Indicators -->
+		  	<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  	</ol>
+
+		 <!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img src="img/bg1.jpg">
+					<div class="container">
+						<div class="carousel-caption">
+							<div class="row">
+								<div class="col-md-7">
+									<h1>Affordable Web Hosting</h1>
+					       		 	<ul class="feature-list">
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Disk Space</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Free Domain Registration</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Free Security Suite</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Free Site Building Tools</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Free Online Store</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Free Search Enginer & Marketing Credits</li>
+						        		<li><i class="fa fa-check" aria-hidden="true"></i>Green! Powered by 100% wind energy</li>
+			        				</ul>
+			        				<p><a href="#" class="btn btn-primary hvr-bounce-out">Sign up today</a></p>
+								</div>	<!-- col-7 ending -->
+
+								<div class="col-md-5">
+									<img class="inline-img" src="img/servers1.png">
+								</div>	<!-- col-5 ending -->
+							</div> <!-- row ending -->
+				    	</div> <!-- Carousel caption ending -->
+					</div> <!-- container ending -->
+			</div> <!-- class item ending -->
+
+			<div class="item">
+				<img src="img/bg2.jpg">
+					<div class="carousel-caption">
+						<div class="row">
+
+							<div class="col-md-7">
+								<h1>24/7 Support</h1>
+				       		 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				       		 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		        				<p><a href="#" class="btn btn-primary hvr-bounce-out">Sign up today</a></p>
+							</div>	<!-- col-7 ending -->
+
+							<div class="col-md-5">
+								<img class="inline-img" src="img/servers2.png">
+							</div>	<!-- col-5 ending -->
+						</div> <!-- row ending -->
+			    	</div> <!-- Carousel caption ending -->
+			</div> <!-- class item ending -->
+
+			<div class="item">
+				<img src="img/bg3.jpg">
+					<div class="carousel-caption">
+						<div class="row">
+							<div class="col-md-7">
+								<h1>99.9% Uptime</h1>
+				       		 	<p>Excepteur sint occaecat cupidatat non
+				       		 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		        				<p><a href="#" class="btn btn-primary hvr-bounce-out">Sign up today</a></p>
+							</div>	<!-- col-7 ending -->
+
+							<div class="col-md-5">
+								<img class="inline-img" src="img/servers3.png">
+							</div>	<!-- col-5 ending -->
+						</div> <!-- row ending -->
+			    	</div> <!-- Carousel caption ending -->
+			</div> <!-- class item ending -->
+		</div> <!-- Carousel inner ending -->
+		<!-- Controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		</a>
+
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		</a>
+	</div><!-- myCarousel ending -->
+
+<!-- ******************************************* Section 2 marketing ******************************************* -->
+
+<section class="marketing">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="wow slideInLeft">
+					<i class="fa fa-user fa-5x fa-border"></i>
+					<h2>24/7 Support</h2>
+					<p> Our TechSupport specialize in providing support to individual consumers with reliable and cost-effective solutions</p>
+					<p><a href="#" class="btn btn-default">View Details</a></p>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="wow slideInDown">
+					<i class="fa fa-wordpress fa-5x fa-border"></i>
+					<h2>One Click Installation</h2>
+					<p>Install powerful web scripts with just one click. We offer over 50 scripts including Joomla, Wordpress, Shopping carts and more</p>
+					<p><a href="#" class="btn btn-default">View Details</a></p>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="wow slideInRight">
+					<i class="fa fa-server fa-5x fa-border"></i>
+					<h2>Daily Backups</h2>
+					<p>Your entire server will be backed up multiple times everyday. Bacon ipsum dolor amet picanha jerky ground round beef ribs ham brisket.</p>
+					<p><a href="#" class="btn btn-default">View Details</a></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- ******************************************* Section 3 Pricing ******************************************* -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+
+					<div class="panel price panel-grey">
+
+						<div class="panel-heading arrow-box text-center">
+							<h3>Starter Plan</h3>
+						</div>
+
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px;"><strong>$3.99/ month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item">1 Free Domain</li>
+							<li class="list-group-item">1 GB Disk Space</li>
+							<li class="list-group-item">10 GB Bandwidth</li>
+							<li class="list-group-item">5 Email Accounts</li>
+						</ul>
+						<div class="panel-footer">
+							<p><a href="#" class="btn btn-primary btn-lg btn-block text-center">BUY NOW</a></p>
+
+				 	</div><!-- panel ending -->
+				</div>
+			</div> <!-- col ending -->
+
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+
+					<div class="panel price panel-grey">
+
+						<div class="panel-heading arrow-box text-center">
+							<h3>Simple Plan</h3>
+						</div>
+
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px;"><strong>$8.99/ month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item">1 Free Domain</li>
+							<li class="list-group-item">5 GB Disk Space</li>
+							<li class="list-group-item">25 GB Bandwidth</li>
+							<li class="list-group-item">20 Email Accounts</li>
+						</ul>
+						<div class="panel-footer">
+							<p><a href="#" class="btn btn-primary btn-lg btn-block text-center">BUY NOW</a></p>
+
+				 	</div><!-- pnael ending -->
+				</div>
+			</div> <!-- col ending -->
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+
+					<div class="panel price panel-grey">
+
+						<div class="panel-heading arrow-box text-center">
+							<h3>Standard Plan</h3>
+						</div>
+
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px;"><strong>$12.99/ month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item">1 Free Domain</li>
+							<li class="list-group-item">50 GB Disk Space</li>
+							<li class="list-group-item">30GB Bandwidth</li>
+							<li class="list-group-item">Unlimited Email Accounts</li>
+						</ul>
+						<div class="panel-footer">
+							<p><a href="#" class="btn btn-primary btn-lg btn-block text-center">BUY NOW</a></p>
+
+				 	</div><!-- pnael ending -->
+				</div>
+			</div> <!-- col ending -->
+
+			<div class="col-md-3 col-sm-6 col-xs-12">
+
+					<div class="panel price panel-grey">
+
+						<div class="panel-heading arrow-box text-center">
+							<h3>Super Plan</h3>
+						</div>
+
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px;"><strong>$14.99/ month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item">2 Free Domain</li>
+							<li class="list-group-item">80 GB Disk Space</li>
+							<li class="list-group-item">100 GB Bandwidth</li>
+							<li class="list-group-item">Unlimted Email Accounts</li>
+						</ul>
+						<div class="panel-footer">
+							<p><a href="#" class="btn btn-primary btn-lg btn-block text-center">BUY NOW</a></p>
+
+				 	</div><!-- panel ending -->
+				</div>
+			</div> <!-- col ending -->
+		</div> <!-- row ending -->
+	</div><!-- Container ending -->
+</section>
+
+
+
+<footer>
+	<div class="container">
+		<p class="pull-right"><a href="#">Back to Top</a></p>
+		<p>FX Hosting &copy; 2017 &middot; <a href="#"> Privacy</a> &middot;
+		<a href="#">Terms</a></p>
+	</div>
+</footer>
+
+
+<!-- links to jquery, bootstrap.js, wow.js and app.js files -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>
